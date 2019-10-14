@@ -14,6 +14,7 @@ will help police department deploying police power in advance.
 New York parking violation data can be accessed through the link 
 https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2016/kiv2-tbus
 This dataset contains the location and parking violation type(which is encoded by the police department).
-I will use the Foursquare API to extract venue information around the parking violation location, like what is done in the lab.
+I will use the Foursquare API to extract venue information around the parking violation location, such as the number of 
+restaurants and parks, and other kinds of venue information, like what is done in the lab.
 After getting the venue information, model such as SVM or KNN will be used to classify and predict different type of parking 
 violation based on location. 
