@@ -1,0 +1,19 @@
+IBM Capstone Project
+-----
+
+[Introduction/Business Problem]
+
+In this capstone project I am going to accomplish a classification problem about New York Parking Violation. To be specific,
+the type of different parking violation is supposed to be relational to the location of the violation location. The hypothesis
+will be that the information of the location may help predict(classify) different type of parkin violation.
+The target of this project will be New York police department. New York police will be interested in this problem because this
+will help police department deploying police power in advance.
+
+[Data]
+
+New York parking violation data can be accessed through the link 
+https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2016/kiv2-tbus
+This dataset contains the location and parking violation type(which is encoded by the police department).
+I will use the Foursquare API to extract venue information around the parking violation location, like what is done in the lab.
+After getting the venue information, model such as SVM or KNN will be used to classify and predict different type of parking 
+violation based on location. 
